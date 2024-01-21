@@ -86,7 +86,7 @@ public class UserDaoJDBCImpl implements UserDao {
 
     public void cleanUsersTable() {
         try {
-            statement.execute("DELETE FROM users WHERE id > 0");
+            statement.executeUpdate("DELETE FROM users WHERE id > 0");
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
