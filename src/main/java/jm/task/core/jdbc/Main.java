@@ -18,8 +18,7 @@ public class Main {
 
         userService.removeUserById(3);
         userService.getAllUsers();
-        //userDao.cleanUsersTable();
-        //userDao.dropUsersTable();
-        Util.closeConnection();
+
+
     }
 }
