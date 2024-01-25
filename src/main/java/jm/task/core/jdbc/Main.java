@@ -18,7 +18,7 @@ public class Main {
 
         userService.removeUserById(3);
         userService.getAllUsers();
-
+        ////
 
     }
 }
